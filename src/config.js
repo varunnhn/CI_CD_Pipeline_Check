@@ -18,7 +18,8 @@
  * message instead of silently failing.
  */
 export const WEB3FORMS_ACCESS_KEY =
-  import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || "";
+  "6b6cae4d-a835-421c-9367-d7695ccb1f59"
+  || "";
 
 export const CONTACT_EMAIL = "office@sapinex.com";
 
