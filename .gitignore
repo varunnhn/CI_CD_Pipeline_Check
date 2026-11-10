@@ -1,0 +1,44 @@
+# Dependencies
+node_modules
+
+# Production builds
+dist
+build
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.local
+
+# Tooling cache
+.vite/
+.eslintcache
+
+# Custom assets
+images and videos/
+
+# Archive
+archive/
+
+# Personal docs & notes
+docs/
+claude.md
+ANIMATIONS.md
+IMAGERY_BRIEF.md
+LAUNCH_TODO.md
+SITE_AUDIT.md
+
+# Local deploy bundle
+sapinex-dist.zip
